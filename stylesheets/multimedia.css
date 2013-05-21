@@ -1,0 +1,106 @@
+.fancy_font {
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+.top {
+  margin-bottom: 20px;
+}
+.header3 {
+  background: #eee;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Goudy Bookletter 1911', Georgia, serif;
+  font-weight: bold;
+}
+.page-infocus {
+  margin-bottom: 20px;
+}
+.page-infocus div.top section#player .embed_area {
+  background: #000;
+  height: 360px;
+  overflow: hidden;
+}
+.page-infocus div.top section#player .embed_area iframe {
+  width: 620px;
+  height: 360px;
+}
+.page-infocus div.top section#player #embed_object {
+  background: #000;
+  width: 620px;
+  height: 358px;
+  /* 360 - 2 */
+
+}
+.page-infocus div.top section#player #details {
+  margin: 10px 0;
+}
+.page-infocus div.top #details h1.title {
+  color: #000;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.page-infocus div.top #details h2.byline {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.page-infocus div.top section#player #details div.teaser {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.page-infocus div.top aside div.ad h4.widget-title {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 5px;
+}
+div.bottom {
+  margin-top: 20px;
+}
+.page-infocus div.top aside div.ad img {
+  width: 100%;
+}
+.page-infocus  ul#media-thumbs {
+  width: 940px;
+  margin: 10px 0;
+  overflow: auto;
+}
+.page-infocus  ul#media-thumbs li {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #FFF;
+  float: left;
+  width: 122px;
+  height: 130px;
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid #efefef;
+}
+.page-infocus  ul#media-thumbs li.current {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+  box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+}
+.page-infocus  ul#media-thumbs li a {
+  text-decoration: none;
+  color: inherit;
+}
+.page-infocus  ul#media-thumbs li h4.title {
+  line-height: 1.2;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+.page-infocus ul#media-thumbs li img {
+  width: 100%;
+}
+.page-infocus ul#media-thumbs li div.byline, .page-infocus  ul#media-thumbs li div.teaser {
+  display: none;
+}
+.page-infocus  ul#media-thumbs li:hover h4.title {
+  color: #000;
+}

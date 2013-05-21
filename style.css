@@ -1,0 +1,61 @@
+@import "stylesheets/grid.css";
+@import "stylesheets/reset.css";
+@import "stylesheets/all.css";
+@import "stylesheets/fonts.css";
+@import "stylesheets/archives.css";
+@import "stylesheets/home.css";
+@import "stylesheets/story.css";
+@import "stylesheets/publication.css";
+@import "stylesheets/reporter.css";
+@import "stylesheets/section.css";
+@import "stylesheets/story.css";
+@import "stylesheets/staff.css";
+
+/*
+Theme Name: Paly Voice
+Theme URI: http://palyvoice.com/
+Description: Theme for Paly Voice 2012
+Author: Spencer Schoeben
+Version: 1.0
+*/
+
+/* HALLOWEEN MARKER */
+/*
+body {
+    background-color: black;
+}
+.grid_4 ul li a,
+article,
+.headline,
+div.teaser p,
+.home_section_card div p,
+header h2 a,
+section.story-page article h1.title,
+section.story-page article h3.byline,
+section.story-page article h4.date,
+div#mostreadpostswidget-3 h2,
+div#mostreadpostswidget-3 ul li a,
+#main-switcher ul li header h2 a,
+#container h2.pane-title,
+div#under_spotlight article div.img_item h1 {
+    color: #D86F08;
+}
+.links.grid_12, div.ticker {
+    background-color: #545454;
+}
+#container #newswire.home div.inner {
+    border: 6px #D86F08 solid;
+}
+#container h2.pane-title {
+    border-top: 2px #D86F08 solid;
+    border-bottom: 2px #D86F08 solid;
+}
+*/
+
+span.grid_4.video_section, .video_section .textwidget {
+    width: 330px;
+}
+
+.video_section h2.pane-title {
+    width: 330px;
+}

@@ -1,0 +1,80 @@
+.view-header {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:20px;
+	line-height:1.2;
+}
+.view-header h2 {
+	font-size:38px;
+}
+.view-header p {
+	color:#666;
+	font-size:18px;
+}
+.view-filters {
+	padding:10px;
+	margin-bottom:10px;
+	border:5px #CCC solid;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background:#EEE;
+}
+.view-filters label {
+	display:inline-block;
+	margin-bottom:5px;
+	font-weight:200;
+}
+.view-archive-list table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.view-archive-list table tr {
+	border:none;
+	cursor:pointer;
+}
+.view-archive-list table tr.odd {
+	background: #fff;
+}
+.view-archive-list table tr.even {
+	background: #eee;
+}
+.view-archive-list table tr.over {
+}
+.view-archive-list table tr td {
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+.view-archive-list table tr td.views-field-field-file-fid {
+  padding: 5px 0px;
+}
+.view-archive-list table tr td.views-field-field-file-fid .broken {
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 66px;
+} 
+.view-archive-list table tr th {
+	padding: 5px 10px;
+}
+.view-archive-list form {
+	margin-bottom: 10px;
+}
+.view-archive-list table thead {
+	display: none;
+}
+.view-archive-list table tr td.views-field-field-full-name-value, .view-archive-list table tr td.views-field-created {
+	width: 130px;
+}
+.view-archive-list table tr td.views-field-field-file-fid img {
+  width: 100px;
+  height: 66px;
+}
+.view-archive-list td.views-field-field-headline-value a {
+	color:inherit;
+	font-weight:bold;
+	font-size:16px;
+	line-height:1.2;
+}
+.view-archive-list tr:hover td.views-field-field-headline-value a {
+	text-decoration:underline;
+}

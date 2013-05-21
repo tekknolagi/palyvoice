@@ -1,0 +1,505 @@
+.fancy_font {
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+.header3 {
+    padding: 10px;
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+    font-weight: bold;
+    border-bottom: 4px #ddd solid;
+    font-size: 22px;
+}
+#container h2.pane-title {
+    font-weight: bold;
+    padding:7px 0;
+    margin-bottom:10px;
+    border-top: 2px #CCC solid;
+    border-bottom: 2px #CCC solid;
+    font-size:16px;
+    text-align:center;
+    color: #666;
+    text-transform:uppercase;
+}
+#container h2.pane-title a {
+    color: inherit;
+}
+#container h2.pane-title a:hover {
+    text-decoration:underline;
+}
+#container #left div.widget {
+    margin-top:10px;
+}
+div.panel-region-separator {
+    height:10px;
+}
+#container .twtr-widget .twtr-hd {
+    display: none;
+}
+#container .twtr-widget .twtr-bd {
+    border: none;
+}
+#container .twtr-widget .twtr-ft {
+    display: none;
+}
+#container .twtr-widget .twtr-tweet {
+    border:none;
+    padding:10px;
+    margin-bottom:10px;
+    background:#EEE;
+}
+#container .twtr-widget p {
+    line-height:1.5 !important;
+}
+#container .twtr-widget .twtr-tweet-wrap {
+    padding:0 !important;
+}
+#container .twtr-widget .twtr-tweet-text a.twtr-user {
+    display:none;
+}
+#container article#breaking {
+    display: none;
+    border-bottom: 2px #EEE solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#container article#breaking h1 {
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 28px;
+}
+#container article#breaking h1:hover {
+    color: #02451A;
+}
+#container article#breaking h1 a {
+    position: relative;
+    color: white;
+}
+#container article#breaking h1 a:active {
+    top: 1px;
+}
+#container #middle_multimedia {
+    border-bottom: 2px #EEE solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#container #lower_storystream {
+    border-bottom: 2px #EEE solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#container #lower_storystream section.story_stream h1.section_title {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+}
+#container #lower_storystream section.story_stream article {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.publication {
+    margin-bottom: 10px;
+}
+#container #lower_storystream section.story_stream article div.avatar {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+#container #lower_storystream section.story_stream article div.avatar img {
+    width: 100%;
+}
+#container #lower_storystream section.story_stream article h4.details {
+    font-size: 12px;
+    font-weight: normal;
+}
+#container #lower_storystream section.story_stream article.story h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+#container #lower_storystream section.story_stream article.story h2 a:hover {
+    text-decoration: underline;
+}
+#container #spotlight p, #container #section_spotlight p {
+    font-size: 11px;
+    line-height: 14px;
+}
+#container #spotlight h1, #container #section_spotlight h1, #container .publication_squares h1, .publication .pub-logo h3 {
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#container #spotlight h2 timestamp, #container #section_spotlight h2 timestamp {
+    color: green;
+}
+#container #spotlight h3, #container #section_spotlight h3 {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+#container #spotlight h3 a, #container #section_spotlight h3 a {
+    color: green;
+}
+#container #spotlight h1.under-image a, #container #section_spotlight h1.under-image a, #container .publication_squares h1.under-image a, .publication .pub-logo h3 a {
+    padding: 10px;
+    height: 77px;
+    background: black;
+    color: #fff;
+    display: block;
+}
+#container .publication_squares h1.under-image a, .publication .pub-logo h3 a {
+    margin-top: -2px;
+}
+.logo {
+    margin-top: 18px;
+}
+.container_12 {
+    margin-top: -20px;
+}
+.grid_5.omega .search {
+    margin-bottom: 5px;
+}
+#container #spotlight h1.under-image a:hover, #container #section_spotlight h1.under-image a:hover, #container .publication_squares h1.under-image a:hover {
+    color: green;
+}
+#container #spotlight h1.no-image, #container #section_spotlight h1.no-image, #container .publication_squares h1.no-image {
+    font-size: 24px;
+    color: #000;
+}
+#container #spotlight h1.no-image a, #container #section_spotlight h1.no-image a, #container .publication_squares h1.no-image a {
+    color: inherit;
+}
+#container #spotlight h1.no-image a:hover, #container #section_spotlight h1.no-image a:hover, #container .publication_squares h1.no-image a:hover {
+    text-decoration: underline;
+}
+#container #spotlight #main, #container #section_spotlight #main {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#container #spotlight #main img, #container #section_spotlight #main img {
+    width: 100%;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+#container #spotlight #under_main, #container #section_spotlight #under_main {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#container #spotlight #under_main img, #container #section_spotlight #under_main img {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    height: 146px;
+}
+#container #spotlight #under_main .row, #container #section_spotlight #under_main .row {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+#container #sidebar iframe,
+#container #leftbar iframe,
+#container #sidebar nav,
+#container #leftbar nav,
+#container #sidebar article,
+#container #leftbar article {
+    margin-bottom: 10px;
+}
+#container #sidebar .ad, #container #leftbar .ad {
+    margin-bottom: 10px;
+    width: 220px;
+}
+#container #leftbar aside {
+    margin-bottom: 10px;
+}
+#container #leftbar h3 {
+    padding: 10px;
+    font-family: 'Goudy Bookletter 1911', Georgia, serif;
+    font-weight: bold;
+    border-bottom:4px #ddd solid;
+    font-size:22px;
+}
+#container #leftbar h3 a {
+    color: inherit;
+}
+#container #leftbar h3 a:hover {
+    text-decoration: underline;
+}
+#container #subscribe {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background: #eee;
+    padding: 10px;
+    overflow: auto;
+}
+#container #subscribe a.fb_button {
+    margin-bottom: 20px;
+}
+#container #subscribe img {
+    float: left;
+}
+#container #subscribe h4 {
+    margin-left: 60px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#spiritweek_stories li {
+    list-style: none;
+}
+#container #newswire h3 {
+    background: #01582B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#29945E), to(#01582B));
+    background: -moz-linear-gradient(linear, left top, left bottom, from(#29945E), to(#01582B));
+    padding:10px;
+    text-align:center;
+    font-size:16px;
+    color:#FFF;
+}
+#container #newswire a {
+    color:inherit;
+}
+#container #newswire div.inner {
+    padding:0;
+}
+#container #newswire.home div.inner {
+    padding:10px;
+    border:6px #01582B solid;
+    border-top:none;
+}
+#container #newswire div.row {
+    margin-bottom:20px;
+}
+/*
+#container #newswire div.row:first-child h1 {
+    font-size:22px;
+    line-height:1.2;
+}
+*/
+#container #newswire div.row h1 {
+    font-size:18px;
+    margin-bottom:10px;
+}
+#container #newswire div.row h1:hover {
+    text-decoration:underline;
+}
+#container #newswire.home div.row h1:hover {
+    text-decoration:none;
+    color:#01582B;
+}
+#container #newswire div.row div.teaser {
+    color:#666;
+    font-size:12px;
+    line-height:1.5;
+    font-family:Georgia, serif;
+}
+#container .widget ul {
+    margin-left:20px;
+}
+#container .widget ul li {
+    margin-top:10px;
+    list-style:disc outside;
+    font-weight:bold;
+    font-family:Georgia, serif;
+}
+#container .widget ul li:hover {
+    text-decoration:underline;
+}
+#container .widget ul li a {
+    color: inherit;
+}
+#container #verbatim h3 {
+    font-size: 18px;
+}
+#container #verbatim img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#container #verbatim blockquote {
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+#container #verbatim cite {
+    float: right;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+}
+#container #infocus {
+    border-color: #666 !important;
+}
+#container #infocus h3 {
+    margin-top: -12px;
+    position: relative;
+}
+#container #infocus h3 timestamp {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+#container #multimedia h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+#container #multimedia .grid_2 {
+    height: 175px;
+}
+#container #multimedia .grid_2 img {
+    width: 134px;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+#container #multimedia .grid_2 h2 {
+    text-transform: none;
+    font-size: 14px;
+}
+#container #multimedia .button_ad img {
+    width: 125px !important;
+    height: 125px !important;
+}
+#container #tips {
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+#container #tips h4 {
+    padding: 10px;
+    background: #eee;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+ul.dsq-widget-list {
+    padding: 0;
+}
+ul.dsq-widget-list li {
+    margin-top:15px;
+    padding:10px;
+    background:#EEE;
+}
+ul.dsq-widget-list li img {
+    display:none;
+}
+ul.dsq-widget-list li a.dsq-widget-user {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+}
+ul.dsq-widget-list li a.dsq-widget-user timestamp {
+    position: absolute;
+    bottom: 3px;
+    left: 51px;
+    display: block;
+}
+ul.dsq-widget-list li span.dsq-widget-comment {
+    font-size: 11px;
+    line-height:1.5;
+}
+ul.dsq-widget-list li p.dsq-widget-meta {
+    margin-top: 3px;
+}
+div#under_spotlight {
+    margin-top:10px;
+}
+div#under_spotlight article div.img_item {
+    overflow:hidden;
+    height:220px;
+    background:#000;
+    margin-bottom:10px;
+}
+div#under_spotlight article div.text_item {
+    overflow:hidden;
+    background:#EEE;
+    height:180px;
+    padding:20px;
+    margin-bottom:10px;
+}
+div#under_spotlight article img, #container .publication_squares img {
+    width:100%;
+    min-height:160px;
+}
+div#under_spotlight article a.img_frame {
+    position:relative;
+    width:220px;
+    float:left;
+    z-index:1;
+    height:220px;
+}
+div#under_spotlight article div.img_item h1 {
+    z-index:2;
+    position:relative;
+    width:200px;
+    float:left;
+    bottom:60px;
+    min-height:60px;
+    line-height:1.2;
+    color: #FFF;
+    padding:10px;
+}
+div#under_spotlight article div.img_item h1 a {
+    color: inherit;
+}
+section.home_section_card {
+    margin-bottom:10px;
+}
+section.home_section_card img {
+    width:100%;
+}
+section.home_section_card div.img_frame {
+    max-height:150px;
+    overflow:hidden;
+}
+section.home_section_card h2.headline {
+    line-height:1.2;
+    font-size:18px;
+    margin-bottom:10px;
+}
+section.home_section_card h2.headline:hover {
+    text-decoration:underline;
+}
+section.home_section_card a {
+    color: inherit;
+}
+section.home_section_card div.teaser {
+    color:#666;
+    font-size:12px;
+    line-height:1.5;
+    font-family:Georgia, serif;
+}
+section.home_section_card ul.other {
+    margin-left:20px;
+}
+section.home_section_card ul.other li {
+    margin-bottom:10px;
+    list-style:disc outside;
+    font-weight:bold;
+    font-family:Georgia, serif;
+}
+section.home_section_card ul.other li:hover {
+    text-decoration:underline;
+}
+section.home_section_card ul.other li a {
+    color: inherit;
+}
+section#top {
+    margin-bottom:20px;
+}
+section#bottom_flag_skirt {
+    margin-top:10px;
+}
+#webform-component-idea label {
+    display:none;
+}
+textarea.wpcf7-textarea {
+    border:1px #CCC solid;
+    color:#666;
+    font-family:Georgia, serif;
+    font-size:12px;
+    width:205px;
+    height:40px;
+    margin-bottom:10px;
+}
+textarea.wpcf7-textarea:focus {
+    border-color:#666;
+    outline:none;
+}

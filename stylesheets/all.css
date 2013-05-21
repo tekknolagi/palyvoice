@@ -1,0 +1,709 @@
+.fancy_font {
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+div#container.container_12 {
+    padding-bottom: 30px;
+}
+#container div.page-title, .four04 {
+    background-color: #EEE;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 42px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    width: 940px;
+    left: 10px;
+    margin-left: 10px;
+    border-bottom: 2px #CCC solid;
+}
+.four04 {
+    font-weight: bold;
+    text-align: center;
+}
+.four04-text {
+    font-size: 15px;
+    text-align: center;
+}
+.header3 {
+    background: #eee;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Goudy Bookletter 1911', Georgia, serif;
+    font-weight: bold;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 14px;
+    color: #000;
+    background:#FFF;
+}
+a {
+    text-decoration: none;
+    color: #31318C;
+}
+.t10 {
+    margin-top:10px;
+}
+.b10 {
+    margin-bottom:10px;
+}
+.t20 {
+    margin-top:20px;
+}
+.b20 {
+    margin-bottom:20px;
+}
+.hide {
+    display: none;
+}
+div.img_frame img {
+    max-width: 100%;
+}
+div.page-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.page-title h1 {
+    font-size: 28px;
+    padding: 10px;
+}
+.inner {
+    padding: 10px;
+}
+header {
+    margin: 10px 0;
+}
+header hgroup.top {
+    overflow: hidden;
+    background-position: center center;
+    margin:0;
+    position: relative;
+    padding-bottom: 4px;
+}
+header hgroup.top h1.logo {
+    height:74px;
+}
+header hgroup.top form.search {
+    margin-top:20px;
+    margin-left:20px;
+    text-align: right;
+}
+header hgroup.top div.banner-ad {
+    margin: 15px auto;
+    width: 260px;
+    height: 60px;
+    background: #FFF;
+    border: 1px #CCC solid;
+    overflow: hidden;
+}
+header hgroup.top div.banner-ad img {
+    width: 100%;
+}
+header hgroup.top ul#social-links {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header hgroup.top ul#social-links li {
+    display: inline-block;
+}
+header hgroup.top ul#social-links li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -99999px;
+}
+header hgroup.top ul#social-links li.facebook a {
+    background: url(/themes/evolution/images/facebook_16.png);
+}
+header hgroup.top ul#social-links li.twitter a {
+    background: url(/themes/evolution/images/twitter_16.png);
+}
+header div.description {
+    display: block;
+    font-family: Palatino, Georgia, serif;
+    text-align: center;
+    margin-top: -10px;
+    color: #666;
+}
+header nav ul.left {
+    float: left;
+}
+header nav ul.right {
+    float: right;
+}
+header nav.pre {
+    display: none;
+    margin-bottom: 10px;
+}
+header nav.pre ul {
+    display: block;
+}
+header nav.pre ul li {
+    display: inline-block;
+}
+header nav.pre ul li a {
+    color: #666;
+}
+header nav.main {
+    display: block;
+    background: #414141;
+    background: -webkit-gradient(linear, left top, left bottom, from(#595959), to(#282828));
+    background: -moz-linear-gradient(linear, left top, left bottom, from(#595959), to(#282828));
+}
+header nav.main > ul {
+    display: block;
+}
+header nav.main > ul > li {
+    padding: 10px 8px;
+    float:left;
+    color: #EEE;
+}
+header nav.main > ul > li ul.sub-menu {
+    z-index:10000;
+    display:none;
+    position:absolute;
+    margin-top:10px;
+    margin-left:-8px;
+    color:#000;
+    background:#EEE;
+    width:140px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.199219) 1px 1px 5px;
+}
+header nav.main > ul > li ul.sub-menu li {
+    padding:8px;
+    border-right:none;
+}
+header nav.main > ul > li ul.sub-menu li:hover {
+    background:#CCC;
+}
+
+header nav.main > ul > li:hover, header nav.main > ul > li.current-menu-item {
+    background: #808080;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.4)));
+    background: -moz-linear-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.4)));
+    background-color: #006F3B;
+}
+header nav.main > ul > li:hover {
+    background-color:#666;
+}
+header nav.main > ul > li:hover ul.sub-menu {
+    display:block;
+}
+/*header nav.main [title=publications_menu]:hover ul.sub-menu {
+    position: relative;
+    left: 50px;
+}
+*/
+header nav.main > ul > li a {
+    position: relative;
+    color: inherit;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+header nav.main > ul > li > a:active {
+    top: 1px;
+}
+header nav.main > ul.left li {
+    border-right: 1px #444 solid;
+}
+header nav.main > ul.right li {
+    border-left: 1px #444 solid;
+}
+header #info_right_align {
+    position: relative;
+    color: white;
+    top: 3px;
+    font-size: 13px;
+    text-align: right !important;
+    float: right;
+    right: 3px;
+}
+header #info_right_align #date {
+/*    margin-left: 60px; */
+    text-align: right !important;
+    float: right;
+}
+header #info_right_align #school_name {
+/*    margin-left: 4px;*/
+    text-align: right !important;
+    float: right;
+}
+header div.ticker {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background:#EEE;
+}
+header div.ticker ul {
+    list-style: none;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 10px;
+    height: 28px;
+}
+header .ticker ul li {
+    text-align: center;
+    width: 100%;
+    display: none;
+    text-overflow: ellipsis: 
+}
+header .ticker ul li.current {
+    display: block;
+}
+header .title {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #CCC;
+    position: absolute;
+    margin: 5px 10px 0 10px;
+}
+header .ticker ul li.current {
+    display: block;
+}
+
+#ticker-content {
+    padding-bottom: 14px;
+}
+
+header .ticker ul li a:hover {
+    text-decoration: underline;
+}
+header ul.ticker li div.title {
+    display: none;
+    padding: 10px;
+    float: left;
+}
+header ul.ticker li div.content {
+    width: 100%;
+    float: left;
+    display: block;
+    color: #000;
+    padding: 10px;
+    background: #EEE;
+    width: 920px;
+    text-align: center;
+}
+header ul.ticker li.breaking div.title {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    height: 20px;
+    width: 140px;
+    background: #333;
+    color: #FFF;
+}
+header ul.ticker li.breaking div.content {
+    text-align: center;
+    height: 20px;
+    font-size: 18px;
+    background: #f8ff79;
+    width: 760px;
+}
+footer {
+    margin-top:20px;
+}
+footer div.links {
+    border-top:2px #CCC solid;
+    border-bottom:2px #CCC solid;
+    padding:20px 0;
+    background:#EEE;
+}
+footer div.copyright {
+    margin-top:20px;
+    text-align:center;
+    font-size:12px;
+    color:#666;
+    margin-bottom:20px;
+}
+footer ul {
+    list-style:none;
+    padding:0 10px;
+}
+footer ul li {
+    font-size:12px;
+    margin-bottom:15px;
+    text-transform:uppercase;
+    color:#666;
+}
+footer ul li:last-child {
+    margin-bottom:0;
+}
+footer ul li a {
+    text-decoration:none;
+    color:inherit;
+}
+footer ul li a:hover {
+    text-decoration:underline;
+}
+div.page-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.page-title span.name {
+    font-size: 28px;
+}
+div.page-title span.position {
+    font-weight: normal;
+}
+.widget.ad h4.widget-title {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.widget.ad img {
+    width: 100%;
+}
+.widget.ad iframe {
+    margin: 0 auto;
+}
+#section_cards {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+#section_cards img {
+    border: 1px solid #ddd;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+#section_cards h5 {
+    border-bottom: 1px solid #ddd;
+    background: #eee;
+    padding: 10px;
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+#section_cards .inner {
+    margin-bottom: 20px;
+    padding: 0;
+    border: 1px solid #ddd;
+    height: 452px;
+}
+#section_cards ul {
+    padding-bottom: 5px;
+}
+#section_cards ul li.first {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+#section_cards ul li.first a {
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+}
+#section_cards ul li.first a timestamp {
+    text-transform: uppercase;
+    color: #bbb;
+}
+#section_cards ul li {
+    margin: 0 0 5px 25px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#section_cards .grid_4 img {
+    width: 272px;
+    height: 162px;
+}
+#section_cards .grid_6 img {
+    width: 312px;
+    height: 195px;
+}
+
+.grid_4.video_section aside:first-child {
+    position: relative;
+    margin-left: -10px;
+}
+
+#main-switcher {
+    width: 700px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+}
+#main-switcher ul {
+    width: 99999px;
+}
+#main-switcher ul li {
+    display: block;
+    width: 700px;
+    float: left;
+    z-index: 10;
+}
+#main-switcher ul li header {
+    float: left;
+    width: 220px;
+    height: 290px;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 0 !important;
+}
+#main-switcher ul li header h2 {
+    font-size: 24px !important;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: none !important;
+    line-height: 1.2;
+}
+#main-switcher a {
+    color: white;/* !important; */
+}
+#main-switcher ul li header div.teaser {
+    font-size: 12px;
+    line-height: 1.5;
+    font-family:Georgia, serif;
+}
+#main-switcher ul li img {
+    float: right;
+    width: 460px;
+    height: 310px;
+}
+
+#boxes {
+    position: absolute;
+    height: 8px;
+    top: 242px;
+    left: 68px;
+    z-index: 100;
+}
+#boxes .box {
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    background: white;
+    display: inline-block;
+    cursor: pointer;
+}
+#boxes .box.active {
+    background: #12A021;
+}
+
+#main-switcher #controls {
+    display: none;
+}
+
+#main-switcher #controls a {
+    position: absolute;
+    display: block;
+    width: 47px;
+    height: 48px;
+    text-indent: -9999px;
+    top: 227px;
+}
+
+#main-switcher #prev {
+    left: 0;
+    background: url("../images/left.png") no-repeat;
+}
+
+#main-switcher #next {
+    right: 0;
+    background: url("../images/right.png") no-repeat;
+}
+#staticpage div.pane-content p, #pub-information p {
+    line-height:1.7;
+    font-family:Georgia, serif;
+    font-size:16px;
+    margin:20px 0;
+}
+#staticpage ul.nav {
+    list-style:none;
+    margin-top:20px;
+}
+#staticpage ul.nav:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+#staticpage ul.nav li a {
+    float:left;
+    padding:10px;
+    margin-right:15px;
+    background:#EEE;
+    font-size:16px;
+    border-radius:5px;
+    color:#666;
+}
+#staticpage ul.nav li a:hover {
+    background:#CCC;
+}
+
+section#pagetop h2, #staticpage .pane-1 h2.pane-title {
+    text-align:center;
+    text-transform:capitalize;
+    font-size:42px;
+    margin:auto;
+    color:#666;
+    padding:10px 0;
+    margin-bottom:10px;
+    border-bottom:2px #CCC solid;
+    background:#EEE;
+    margin-top:-10px;
+}
+
+.pub-logo {
+    margin-right:20px;
+    position: relative;
+}
+
+.pub-logo img {
+    width: 214px;
+    height: 157px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    padding: 2px;
+}
+
+.pub-logo:after {
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: -40px;
+    border-color: transparent transparent transparent #dddddd;
+    border-width: 20px;
+    border-style:solid;
+    width: 0;
+    left: auto;
+    bottom: auto;
+    display: block;
+}
+
+/* blogs */
+
+#blog_header {
+    margin-bottom:10px;
+}
+#blog_header.header_2168 {
+    margin-top:-10px; 
+    background-image:url("../images/dangerzone_banner.jpg");
+    height:210px;
+}
+.story-page.taxonomy .before-posts {
+    margin-bottom:10px;
+}
+.story-page.taxonomy .before-posts h2 {
+    font-size:36px;
+    text-align:center;
+}
+.story-page.taxonomy article {
+    border-bottom:1px #CCC solid;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+#blog_sidebar .info .sub-image {
+    padding:10px 20px;
+    background:#EEE;
+}
+#blog_sidebar .info h3.name {
+    margin:5px 0;
+    font-size:18px;
+}
+#blog_sidebar .info h3.name a {
+    color:inherit;
+}
+#blog_sidebar .info h3.name a:hover {
+    text-decoration:underline;
+}
+#blog_sidebar .info div.bio {
+    font-family:Georgia, serif;
+    line-height:1.5;
+    font-size:12px;
+}
+#blog_sidebar .info img {
+    width:100%;
+}
+#staticpage .panel-pane.pane-1 h2.pane-title {
+    border-top: 0 !important;
+}
+
+/* page photo */
+
+body.page-photo {
+    background:#111;
+}
+body.page-photo h1.logo {
+    background:url("../images/newlogo_white.png") no-repeat;
+}
+body.page-photo h1.logo a {
+    display:block;
+    width:375px;
+    height:73px;
+}
+body.page-photo h1.logo img {
+    visibility:hidden;
+}
+body.page-photo footer div.links {
+    background:#222;
+    border:none;
+}
+section#photoblog section.photo {
+    margin-bottom:20px;
+    padding:10px;
+    background:#222;
+}
+section#photoblog section.photo-head {
+    width:410px;
+    margin:20px auto;
+}
+section#photoblog section.photo-head div.description {
+    line-height:1.5;
+    text-align:center;
+    font-family:Georgia, serif;
+    color:#FFF;
+    margin-top:10px;
+}
+section#photoblog section.photo h2.caption {
+    color:#fff;
+    text-align:center;
+    font-weight:100;
+    font-size:26px;
+    margin-bottom:10px;
+    line-height:1.5;
+}
+section#photoblog section.photo h2.caption a {
+    color:inherit;
+}
+section#photoblog section.photo div.body {
+    margin-top:10px;
+    line-height:1.5;
+    font-family:Georgia, serif;
+    color:#FFF;
+    font-size:16px;
+}
+section#photoblog section.photo img {
+    max-width:100%;
+}
+
+/* hide the crap */
+
+section#section_cards, div#multimedia {
+    display:none;
+}
+
+.story-content {
+    font-family: Georgia;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+div.grid_12 span.search_results {
+    position: relative;
+    left: 20px;
+}

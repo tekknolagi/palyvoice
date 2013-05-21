@@ -1,0 +1,70 @@
+#section_spotlight article {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px #CCC dashed;
+}
+#section_spotlight article h1 {
+  font-size: 18px;
+}
+#section_spotlight article h1 a {
+  color: inherit;
+}
+#section_spotlight article div.img_frame img {
+  width: 100%;
+}
+#section_spotlight .secondary {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#section_spotlight .secondary div.img_frame {
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  border: 1px solid #ddd;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+#section_spotlight .secondary div.img_frame div.no_img {
+  width: 100%;
+  height: 100%;
+  background: #EEE;
+}
+#section_spotlight .secondary div.img_frame img {
+  width: 100%;
+  height: 100%;
+}
+#section_middle h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#section_middle ul {
+  margin-bottom: 10px;
+}
+#section_middle ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 5px;
+}
+#section_middle ul li h3 {
+  margin-bottom: 10px;
+}
+#section_middle ul li h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+#section_middle ul li h4 timestamp {
+  color: green;
+}
+#section_sidebar aside, #section_sidebar nav {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+#section_sidebar h3 {
+  background: #D3E5D9;
+  padding: 5px 10px 3px 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Junction', Georgia, serif;
+  font-weight: bold;
+}

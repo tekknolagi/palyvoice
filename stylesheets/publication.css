@@ -1,0 +1,109 @@
+.fancy_font {
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+.header3 {
+  background: #eee;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Goudy Bookletter 1911', Georgia, serif;
+  font-weight: bold;
+}
+.fancy_font {
+  font-family: 'Junction', Georgia, serif;
+}
+.header3 {
+  background: #D3E5D9;
+  padding: 5px 10px 3px 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Junction', Georgia, serif;
+  font-weight: bold;
+}
+#cover_filmstrip {
+  margin-bottom: 10px;
+}
+#cover_filmstrip div.inner {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#cover_filmstrip ol {
+  display: block;
+  list-style-type: none;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+#cover_filmstrip ol li {
+  list-style-type: none;
+  display: inline-block;
+}
+#cover_filmstrip ol li a {
+  text-decoration: none;
+}
+#cover_filmstrip ol li a img {
+  border: 1px solid #ddd;
+  padding: 2px;
+  display: block;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 160px;
+}
+#cover_filmstrip ol li a span {
+  font-size: 12px;
+  font-weight: bold;
+}
+#cover_filmstrip .pager {
+  margin: 0 !important;
+}
+#cover_filmstrip .pager li {
+  font-weight: normal;
+  font-size: 12px;
+}
+#publication_subnav {
+  border: 1px solid #ddd;
+  border-top: 0 !important;
+  background: #fefefe;
+}
+#publication_subnav h5 {
+  font-family: 'Junction', Georgia, serif;
+  padding: 8px 10px 5px 10px;
+}
+#publication_subnav ul {
+  border-top: 1px solid #ddd;
+  border-top: 0;
+}
+#publication_subnav ul li {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.publication_button {
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #eee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+.publication_button h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+.publication_button div {
+  margin: 0 auto;
+}
+.publication_button div img {
+  display: inline;
+}
+.publication_button div .right_spread {
+  margin-left: -4px;
+}
+#section_sidebar .view-id-publication_issue_thumbnails {
+  text-align: center;
+}

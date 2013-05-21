@@ -1,0 +1,64 @@
+#spirit_head {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.page-spirit-week-2011 h2 {
+  margin-bottom: 10px;
+}
+
+.graph {
+  overflow: hidden;
+  width: 460px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.graph iframe {
+  margin: 0 0 0 -68px;
+}
+
+#spiritweek_stories {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#spiritweek_stories li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#spiritweek_stories li a {
+  display: block;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+#spiritweek_stories li a:hover {
+  text-decoration: none;
+  background: #fafafa;
+}
+#spiritweek_stories li a img {
+  width: 125px;
+  height: 83px;
+  padding: 3px;
+  border: 1px solid #dedede;
+  float: left;
+  margin-right: 10px;
+}
+#spiritweek_stories li a h3 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  color: #009;
+}
+#spiritweek_stories li a h4 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: normal;
+  color: black;
+}
+#spiritweek_stories li a h4 span {
+  color: #090;
+}

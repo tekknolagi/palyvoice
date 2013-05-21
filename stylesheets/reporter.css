@@ -1,0 +1,90 @@
+.fancy_font {
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+}
+.header3 {
+    background: #eee;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Goudy Bookletter 1911', Georgia, serif;
+    font-weight: bold;
+}
+section.reporter-page div.page-title h1 {
+    line-height:1.2;
+}
+section.reporter-page div.page-title h1 span.name {
+    display: inline-block;
+    font-size:38px;
+}
+section.reporter-page div.page-title h1 span.position {
+    display: block;
+    font-size: 18px;
+    color: #666;
+}
+section.reporter-page div.profile-image img {
+    width: 100%;
+}
+section.reporter-page ul.sub-image {
+    list-style: none;
+    margin-bottom: 10px;
+}
+section.reporter-page ul.sub-image li {
+    padding: 5px;
+    text-align: center;
+}
+section.reporter-page ul.sub-image li a {
+    color: inherit;
+}
+section.reporter-page ul.sub-image li:hover {
+    background: #EEE;
+}
+section.reporter-page div.bio {
+    border: 1px #CCC solid;
+    line-height: 1.5;
+    font-size: 12px;
+    padding: 10px;
+}
+section.reporter-page div.bio img.bio_pic {
+    width: 198px;
+}
+section.reporter-page div.twitter * {
+    line-height: 1.2 !important;
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+}
+section.reporter-page article div.standard-story {
+    margin-bottom: 10px;
+}
+section.reporter-page article div.standard-story h2 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+section.reporter-page article div.standard-story h2 a {
+    color: inherit;
+}
+section.reporter-page article div.standard-story h2 a:hover {
+    text-decoration: underline;
+}
+section.reporter-page h2.position_head {
+    margin-bottom: 10px;
+    font-family: "Goudy Bookletter 1911", Georgia, serif;
+    font-size: 20px;
+}
+section.reporter-page ul.staff-list {
+    list-style: none;
+}
+section.reporter-page ul.staff-list li {
+    margin-bottom: 10px;
+}
+section.reporter-page ul.staff-list li h2.name {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+section.reporter-page ul.staff-list li h2.name a {
+    color: inherit;
+}
+section.reporter-page ul.staff-list li h2.name a:hover {
+    text-decoration: underline;
+}
+section.reporter-page ul.staff-list li h3.position {
+    font-weight: normal;
+}

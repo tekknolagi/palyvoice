@@ -1,0 +1,423 @@
+.header3 {
+  background: #eee;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+	line-height:1.4;
+  font-weight: bold;
+}
+section.story-page article {
+  overflow: none;
+  line-height: 1.2;
+	margin-bottom:20px;
+}
+section.story-page article h2.section {
+  display: none;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue", Helvetica, sans-serif;
+}
+section.story-page article h1.title {
+  color: #000;
+  font-weight: bold;
+  font-size: 32px;
+	line-height:1.3;
+}
+section.story-page.taxonomy article h1.title {
+  font-size: 26px;
+}
+section.story-page.taxonomy article h1.title a {
+	color:inherit;
+}
+section.story-page.taxonomy article h1.title a:hover {
+	text-decoration:underline;
+}
+section.story-page.taxonomy article div.teaser p {
+	margin:0;
+	margin-top:5px;
+}
+section.story-page article h2.deck {
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 16px;
+	line-height:1.3;
+}
+section.story-page article h3.byline {
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+	line-height:1.5;
+}
+section.story-page article h3.byline a {
+  color: green;
+  text-transform: uppercase;
+}
+section.story-page article h3.byline a:hover {
+  text-decoration: underline;
+}
+section.story-page article h3.byline span.publication a {
+  text-transform: none;
+  font-style: italic;
+}
+section.story-page article h4.date {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+	line-height:1.5;
+}
+section.story-page article div.share {
+  margin: 10px 0;
+  padding-top: 10px;
+  border-top: 1px #CCC solid;
+}
+section.story-page article div.share div.facebook {
+  float: left;
+  width: 90px;
+}
+section.story-page article div.share div.twitter {
+  float: left;
+  width: 100px;
+}
+section.story-page article div.share div.digg {
+  float: left;
+  width: 100px;
+}
+section.story-page article div.share ul.right {
+  float: right;
+}
+section.story-page article div.share ul.right li {
+  opacity: 0.5;
+  list-style: none;
+  float: left;
+}
+section.story-page article div.share ul.right li:hover {
+  opacity: 1;
+}
+section.story-page article div.share ul.right li a {
+  color: inherit;
+}
+section.story-page article div.share ul.right li a:hover {
+  text-decoration: underline;
+}
+section.story-page article div.share ul.right li.email a {
+  background: url("../images/icons/email.png") no-repeat;
+  padding-left: 29px;
+  margin-right: 10px;
+}
+section.story-page article div.share ul.right li.print a {
+  background: url("../images/icons/print.png") no-repeat;
+  padding-left: 22px;
+}
+section.story-page article div.story-content p {
+	font-family:Georgia, serif;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+section.story-page article div.verbatim-text p {
+  margin: 0;
+  padding: 0;
+}
+section.story-page article div.verbatim-text p.quote {
+  margin-bottom: 10px;
+  font-size: 16px !important;
+}
+section.story-page article div.verbatim-text p.quote:before {
+  content: "\"";
+}
+section.story-page article div.verbatim-text p.quote:after {
+  content: "\"";
+}
+section.story-page article div.verbatim-text p.source {
+  color: #666;
+  font-weight: bold;
+  font-style: italic;
+  text-indent: 80px;
+}
+section.story-page article div.verbatim-text p.source:before {
+  content: "\2014";
+}
+section.story-page article #gallery img {
+  width: 100%;
+}
+section.story-page article #controls:after {
+	content:' ';
+	display:block;
+	clear:both;
+}
+section.story-page article #controls .ss-controls {
+	float:left;
+}
+section.story-page article #controls .ss-controls a {
+	margin-right:10px;
+}
+section.story-page article #controls .nav-controls {
+	float:right;
+}
+section.story-page article #controls .nav-controls a {
+	margin-left:10px;
+}
+section.story-page article #controls a {
+	padding:5px;
+	border:1px #CCC solid;
+	color:#666;
+	background:#EEE;
+}
+section.story-page article #gallery #caption {
+  padding: 5px 0;
+}
+section.story-page article #gallery #caption div.credit {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+section.story-page article #thumbs ul {
+  list-style: none;
+}
+section.story-page article #thumbs ul li {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  width: 78px;
+  opacity: 0.7;
+	overflow:hidden;
+	height:55px;
+}
+section.story-page article #thumbs ul li.selected {
+  opacity: 1;
+}
+section.story-page article #thumbs ul li:hover {
+  opacity: 1;
+}
+section.story-page article #thumbs ul li a.thumb img {
+  width: 100%;
+}
+section.story-page aside#sidebar {
+  overflow: auto;
+}
+section.story-page aside#sidebar .widget {
+  margin: 20px 0;
+}
+section.story-page aside#sidebar .widget:first-child {
+  margin-top: 0;
+}
+section.story-page aside#sidebar .widget.ad h4.widget-title {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 5px;
+}
+section.story-page aside#sidebar .widget.ad img {
+  width: 100%;
+}
+section.story-page aside#sidebar .widget .list-stories.no-bullets {
+  list-style: none;
+}
+section.story-page aside#sidebar .widget .list-stories li {
+  list-style-position: inside;
+  padding: 5px;
+}
+section.story-page aside#sidebar .widget .list-stories li h4.story-title {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+section.story-page aside#sidebar .widget .list-stories li h5.date {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+  font-family: "HelveticaNeue", Helvetica, sans-serif;
+}
+section.story-page aside#sidebar .widget .list-stories li a {
+  color: inherit;
+}
+section.story-page aside#sidebar .widget .list-stories li a:hover {
+  text-decoration: underline;
+}
+section.story-page aside#sidebar .widget.has-heading h2.widget-title {
+  font-weight: bold;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:2px #CCC solid;
+	font-size:16px;
+}
+section.story-page aside#sidebar .widget.has-heading div.content {
+}
+section.story-page aside#sidebar .widget.related .list-stories li {
+  list-style: none;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item {
+  margin-bottom: 10px;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item:last-child {
+  margin-bottom: 0;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item .list-stories {
+  margin-top: 10px;
+  font-weight: normal;
+  list-style: none;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.pic {
+  float: left;
+  width: 48px;
+  margin-right: 10px;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.pic img {
+  width: 100%;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text {
+  padding: 0 5px;
+  float: left;
+  width: 200px;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h3.name {
+  font-size: 22px;
+  line-height: 1.2;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h3.name a {
+  color: inherit;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h3.name a:hover {
+  text-decoration: underline;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h4.position {
+  line-height: 1.2;
+  color: #666;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h4.publication {
+  line-height: 1.2;
+  color: #666;
+  font-weight: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h4.publication a {
+  color: green;
+}
+section.story-page aside#sidebar .widget.reporter div.reporter-item div.text h4.publication a:hover {
+  text-decoration: underline;
+}
+section.story-page aside#sidebar .widget.tabs {
+  border: 1px #CCC solid;
+}
+section.story-page aside#sidebar .widget.tabs ul.tabs {
+  background: #EEE;
+  border-bottom: 1px #CCC solid;
+}
+section.story-page aside#sidebar .widget.tabs ul.tabs li {
+  font-family: "Goudy Bookletter 1911", Georgia, serif;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+section.story-page aside#sidebar .widget.tabs ul.tabs li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+section.story-page aside#sidebar .widget.tabs ul.tabs li.current {
+  background: #CCC;
+}
+section.story-page aside#sidebar .widget.tabs ul.tabs li.current:hover {
+  text-decoration: none;
+}
+section.story-page aside#sidebar .widget.tabs div.content {
+  padding: 10px;
+  display: none;
+}
+section.story-page aside#sidebar .widget.tabs div.content.current {
+  display: block;
+}
+.slideshow-thumbs {
+  overflow: hidden;
+}
+.slideshow-thumbs .scroll {
+  width: 630px;
+}
+.slideshow-thumbs .thumb {
+  width: 80px;
+  float: left;
+  padding: 5px;
+  opacity: 0.5;
+}
+.slideshow-thumbs .thumb img {
+  width: 100%;
+}
+.slideshow-thumbs .thumb.current {
+  opacity: 1;
+}
+.wp-caption {
+  position: relative;
+}
+.wp-caption.alignleft {
+	margin-right:20px;
+	float:left;
+}
+.wp-caption.alignright {
+	margin-left:20px;
+	float:right;
+}
+.wp-caption img {
+  width: 100%;
+}
+.wp-caption .wp-caption-text {
+  text-align: left;
+  color: #666;
+  font-size: 12px !important;
+	font-family:"Helvetica Neue", Helvetica, sans-serif !important;
+	margin-top:5px !important;
+}
+.story-image.quarter {
+  width: 25%;
+}
+.story-image.third {
+  width: 33%;
+}
+.story-image.half {
+  width: 50%;
+}
+.story-image.full {
+  width: 100%;
+}
+.story-image.left {
+  float: left;
+  margin-right: 20px;
+}
+.story-image.left div.zoom-image {
+  right: 0;
+}
+.story-image.right {
+  float: right;
+  margin-left: 20px;
+}
+.story-image.right div.zoom-image {
+  left: 0;
+}
+.cc-license {
+  margin: 20px 0;
+  padding: 10px;
+  background: #EEE;
+  border: 1px #DDD solid;
+}
+.cc-license .logo {
+  float: left;
+  width: 88px;
+  margin-right: 10px;
+}
+.cc-license .description {
+  width: 500px;
+  float: left;
+  font-size: 14px;
+}
+.cc-license a {
+  font-weight: bold;
+}
+.cc-license a:hover {
+  text-decoration: underline;
+}
